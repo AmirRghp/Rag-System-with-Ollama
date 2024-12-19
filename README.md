@@ -1,6 +1,6 @@
 ﻿# Rag-System-with-Ollama
 
-This repository contains a **PyQt5**-based application for mini QA Bot With **Rag**  System using the **Ollama** models.This app uses **Ollama** for Embedded and LLM Models and **langchain** to get **PDF** documents and make the Rag system.
+This repository contains a **PyQt5**-based application for mini QA Bot With **Rag**  System using the **Ollama** models.This app uses **Ollama** for Embedded and LLM Models and **langchain** to get **PDF** documents and answer questions based on your documents.
 
 ---
 
