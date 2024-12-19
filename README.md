@@ -44,11 +44,11 @@ cd Rag-System-with-Ollama
 ### Run Ollama
 
 #### After Install Ollama on your system open CMD or Terminal and run these prompts
-1. First download and run your LLM model (For example Llama 3.2)
+1. First download your LLM model (For example Llama 3.2)
 ```bash
 ollama pull llama3.2
 ```
-2. download and run your LLM Embedded (For example nomic-embed-text)
+2. download your Embedded (For example nomic-embed-text)
 ```bash
 ollama pull nomic-embed-text
 ```
