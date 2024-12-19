@@ -56,7 +56,7 @@ ollama pull nomic-embed-text
 ```bash
 ollama serve
 ```
-If you like use Ollama on cmd you can use this prompt :
+If you like use LLM model on cmd you can use this prompt :
 ```bash
 ollama run llama3.2
 ```
