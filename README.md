@@ -1,6 +1,6 @@
 ﻿# Rag-System-with-Ollama
 
-This repository contains a **PyQt5**-based application for mini QA Bot With **Rag**  System using the **Ollama** models.This app uses **Ollama** for Embedded and LLM Models and **langchain** to get **PDF** documents and make the Rag system.
+This repository contains a **PyQt5**-based application for mini QA Bot With **Rag**  System using the **Ollama** models.This app uses **Ollama** for Embedded and LLM Models and **langchain** to get **PDF** documents and answer questions based on your documents.
 
 ---
 
@@ -44,11 +44,11 @@ cd Rag-System-with-Ollama
 ### Run Ollama
 
 #### After Install Ollama on your system open CMD or Terminal and run these prompts
-1. First download and run your LLM model (For example Llama 3.2)
+1. First download your LLM model (For example Llama 3.2)
 ```bash
 ollama pull llama3.2
 ```
-2. download and run your LLM Embedded (For example nomic-embed-text)
+2. download your Embedded (For example nomic-embed-text)
 ```bash
 ollama pull nomic-embed-text
 ```
@@ -56,7 +56,7 @@ ollama pull nomic-embed-text
 ```bash
 ollama serve
 ```
-If you like use Ollama on cmd you can use this prompt :
+If you like use LLM model on cmd you can use this prompt :
 ```bash
 ollama run llama3.2
 ```
@@ -96,7 +96,7 @@ def __init__(self, chunks, embedding_model="your-model", base_url="127.0.0.1:114
 ## Screenshot
 ![App Screenshot](screenshots/AppPic.png)
 ## Video
-![App Video](screenshots/AppVideo.mp4)
+![App Video](screenshots/AppVideo.gif)
 
 
 ## Common Errors
