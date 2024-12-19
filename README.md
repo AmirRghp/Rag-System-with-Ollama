@@ -95,6 +95,9 @@ def __init__(self, chunks, embedding_model="your-model", base_url="127.0.0.1:114
 
 ## Screenshot
 ![App Screenshot](screenshots/AppPic.png)
+## Video
+![App Video](screenshots/AppVideo.mp4)
+
 
 ## Common Errors
 **Context not found**:
