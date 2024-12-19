@@ -6,7 +6,7 @@ from get_doc import DocumentIngestor, VectorStoreHandler
 
 
 class RetrievalChainBuilder:
-    def __init__(self, vector_store, model="llama3.1:8b"):
+    def __init__(self, vector_store, model="your-model"):
         self._vector_store = vector_store
         self._model = model
         self._prompt = PromptTemplate.from_template(

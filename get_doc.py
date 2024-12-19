@@ -46,7 +46,7 @@ class DocumentIngestor:
 
 
 class VectorStoreHandler:
-    def __init__(self, chunks, embedding_model="nomic-embed-text", base_url="127.0.0.1:11434", persist_dir="./sql_chroma_db"):
+    def __init__(self, chunks, embedding_model="your-model", base_url="127.0.0.1:11434", persist_dir="./sql_chroma_db"):
         self._chunks = chunks
         self._embedding_model = embedding_model
         self._base_url = base_url
